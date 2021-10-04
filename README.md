@@ -1,7 +1,7 @@
 # newrelic-workspace
 Notes for installing and working with New Relic instrumentation
 
-### Amazon Linux 2
+### Amazon Linux 2 - Infra Agent Install
 - sudo yum update -y
 - sudo amazon-linux-extras install docker
 - sudo service docker start
