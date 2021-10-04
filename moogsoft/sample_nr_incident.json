@@ -1,0 +1,57 @@
+2021/10/04 1:49:15 PM
+{
+  "owner": "",
+  "severity": "CRITICAL",
+  "policy_url": "https://alerts.newrelic.com/accounts/3130295/policies/1585397",
+  "metadata": {
+    "entity.type": "CONTAINER",
+    "entity.name": "nginx3-8001"
+  },
+  "closed_violations_count": {
+    "critical": 0,
+    "warning": 0
+  },
+  "current_state": "open",
+  "policy_name": "acloudguru-server-docker-8001",
+  "incident_url": "https://alerts.newrelic.com/accounts/3130295/incidents/393181856",
+  "condition_family_id": 22686409,
+  "incident_acknowledge_url": "https://alerts.newrelic.com/accounts/3130295/incidents/393181856/acknowledge",
+  "targets": [
+    {
+      "id": "2806518327289847480",
+      "name": "docker:09ce04dabd8cb5ab3c74396a3ec4f17c337fa2de4739bc10aa7d1cc6b567ee5e",
+      "link": "https://infrastructure.newrelic.com/accounts/3130295/alertLanding?violationId=2136379234",
+      "labels": {
+        "account": "Account 3130295",
+        "accountId": "3130295",
+        "container.state": "running",
+        "docker.containerId": "09ce04dabd8cb5ab3c74396a3ec4f17c337fa2de4739bc10aa7d1cc6b567ee5e",
+        "docker.imageName": "nginx",
+        "docker.shortContainerId": "09ce04dabd8c",
+        "guid": "MzEzMDI5NXxJTkZSQXxOQXwyODA2NTE4MzI3Mjg5ODQ3NDgw",
+        "maintainer": "NGINX Docker Maintainers <docker-maint@nginx.com>",
+        "newrelic.integrationName": "nri-docker",
+        "newrelic.integrationVersion": "1.6.0",
+        "trustedAccountId": "3130295"
+      },
+      "product": "INFRASTRUCTURE",
+      "type": "Host"
+    }
+  ],
+  "version": "1.0",
+  "condition_id": 178799123,
+  "duration": 151,
+  "account_id": 3130295,
+  "incident_id": 393181856,
+  "event_type": "INCIDENT",
+  "account_name": "Account 3130295",
+  "timestamp_utc_string": "2021-10-04, 18:49 UTC",
+  "open_violations_count": {
+    "critical": 1,
+    "warning": 0
+  },
+  "details": "CPU % > 10 for at least 1 minutes on 'docker:09ce04dabd8cb5ab3c74396a3ec4f17c337fa2de4739bc10aa7d1cc6b567ee5e'",
+  "violation_callback_url": "https://infrastructure.newrelic.com/accounts/3130295/alertLanding?violationId=2136379234",
+  "condition_name": "ACloudGuru-playground-container-nginx-8001",
+  "timestamp": 1633373355287
+}
