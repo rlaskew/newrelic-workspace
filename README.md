@@ -12,4 +12,5 @@ Notes for installing and working with New Relic instrumentation
 - sudo yum install newrelic-infra -y
 - curl http://download.newrelic.com/nrdiag/nrdiag_latest.zip -o nrdiag_latest.zip
 - unzip nrdiag_latest.zip
+- docker run --name nginx1-8000 -p 8000:80 -d --cpus=".25" --memory=100m nginx
 - docker exec -it nginx1-8000 /bin/sh -c "while true; do curl http://localhost:80; date; done;"
