@@ -1,4 +1,12 @@
 license_key: (INSERT LICENSE KEY HERE)
 log_file: /tmp/newrelic-infra-agent-logs.log
 log_format: text
+log_format: text
 verbose: 0
+enable_process_metrics: true
+custom_attributes:
+  - project: newrelic_workspace
+  - vm_provider: acg
+passthrough_environment:
+  - HOME
+  - XDG_RUNTIME_DIR
