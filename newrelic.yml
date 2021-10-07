@@ -1,4 +1,4 @@
 license_key: (INSERT LICENSE KEY HERE)
 log_file: /tmp/newrelic-infra-agent-logs.log
 log_format: text
-verbose: 1
+verbose: 0
