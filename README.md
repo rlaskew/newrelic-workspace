@@ -14,3 +14,5 @@ Notes for installing and working with New Relic instrumentation
 - unzip nrdiag_latest.zip
 - docker run --name nginx1-8000 -p 8000:80 -d --cpus=".25" --memory=100m nginx
 - docker exec -it nginx1-8000 /bin/sh -c "while true; do curl http://localhost:80; date; done;"
+- https://github.com/newrelic/newrelic-cli
+- https://download.newrelic.com/install/newrelic-cli/
